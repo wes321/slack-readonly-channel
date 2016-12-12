@@ -8,8 +8,11 @@
 
     Note: You must be an admin of your Slack team since it requires delete message permissions
 
- 	Setup
+	App Setup
+	1. Run pip install Flask requests TinyDB
+	2. Run python app.py
 
+ 	Slack Setup
  	1. Create a Slack App
  	2. Copy over the client_id and client_secret below
  	3. Determine your 'slack_team_id' by clicking 'Test Method' here https://api.slack.com/methods/team.info/test. Copy id to slack_team_id

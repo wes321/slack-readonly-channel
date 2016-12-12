@@ -5,7 +5,11 @@ Created by:
 Wesley Lorenzini
 http://wltechnology.com
 
-### Setup
+### App Setup
+1. Run `pip install Flask requests TinyDB`
+2. Run `python app.py`
+
+### Slack Setup
 1. Create a Slack app here https://api.slack.com/apps?new_app=1
 2. Copy over the **client_id** and **client_secret** to the **app.py** file 
 3. Determine your **slack_team_id** by clicking 'Test Method' here https://api.slack.com/methods/team.info/test. Copy **id** to **slack_team_id**
