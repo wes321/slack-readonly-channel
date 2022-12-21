@@ -1,9 +1,13 @@
 # Slack Readonly Channel
 Delete all messages inside a slack channel besides chosen admins.
 
-Created by:
-Wesley Lorenzini
+[Update]: Slack now has similar features. 
+
+Created: 
+Dec 2016
+Wes Lorenzini
 http://wltechnology.com
+
 
 ### App Setup
 1. Run `pip install Flask requests TinyDB`
